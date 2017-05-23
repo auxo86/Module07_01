@@ -2,19 +2,9 @@
 @model Mod02_01.Models.Opera
 
 @{
-    Layout = null;
+    ViewBag.Title = "新增歌劇";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Create</title>
-    @*加入錯誤驗證強化顯示的樣式表*@
-    <link href="~/Content/Site.css" rel="stylesheet" />
-</head>
-<body>
     <div>
         @using (Html.BeginForm())
         {
@@ -53,5 +43,3 @@
     <script src="~/Scripts/jquery-1.10.2.js"></script>
     <script src="~/Scripts/jquery.validate.js"></script>
     <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
-</body>
-</html>
